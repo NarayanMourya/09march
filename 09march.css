@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+nav{
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+font-weight: 600;
+padding-left: 2vmax;
+font-size: 2vmax;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+nav ul li{
+    padding: 0 2vmax;
+    font-weight: 900;
+    font-size: 1.2vmax;
+    font-family: 'bebas-neue';
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: blueviolet;
+
+}
+nav h3{
+    padding: 0 2vmax;
+
+}
+nav h3 span{
+    padding: 0 2vmax;
+}
+    
+nav button{
+    margin-right: 3vmax;
+   padding: .6vmax 1.8vmax;
+   border: .2vmax solid ;
+   border-radius: 1vmax;
+   background-color: black;
+   color: white;
+   font-weight: 800;
+   font-family: 'bebas-neue';
+
+}
+nav button:hover{
+    background-color: aqua;
+    color: brown;
+}
+section{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.left{    
+    width: 50%;
+    background-color: aliceblue;
+}
+.left h4{
+    font-size: 1.2vmax;
+    font-weight: 800;
+    font-family: 'bebas-neue';
+    /* margin: 0vmax 8vmax; */
+    margin-top: 4vmax;
+    margin-bottom: 1vmax;
+    margin-left: 10vmax;
+
+}
+.left h2{
+    font: 800 3.5vmax 'bebas-neue';
+    /* margin:2vmax 8vmax  ; */
+    margin-left: 8vmax;
+}
+.left h2 img{
+    margin-left:4vmax ;
+    /* margin-top: 4vmax; */
+    /* font-size: 900; */
+}
+
+
+.left p{
+    margin-left: 8vmax;
+    font: 500 1.5vmax 'bebas-neue';
+}
+.left button{
+    margin-top:3vmax ;
+    margin-left: 8vmax;
+    border: .2vmax solid black;
+    border-radius: .8vmax;
+    padding:.8vmax 1.5vmax;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1vmax;
+    
+}
+.left button:hover{
+    background-color: white;
+    color: black;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(233, 20, 162);
+    
+}
